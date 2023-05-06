@@ -13,7 +13,7 @@ def subjectchoose(text_to_speech):
             t='Please enter the subject name.'
             text_to_speech(t)
         os.chdir(
-            f"C:\\Users\\Riti Ram\\Attendance-Management-system-using-face-recognition\\Attendance{Subject}"
+            f"C:\\Users\\Riti Ram\\Attendance-Management-system-using-face-recognition\\Attendance\\{Subject}"
         )
         filenames = glob(
             f"C:\\Users\\Riti Ram\\Attendance-Management-system-using-face-recognition\\Attendance\\{Subject}\\{Subject}*.csv"
